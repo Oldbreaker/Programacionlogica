@@ -1,0 +1,107 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 150 (DEFUN BLACK-JACK NIL ...)-1|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|BLACK-JACK| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|BLACK-JACK|
+       #481Y(00 00 00 00 00 00 00 00 26 01 DA C6 74 AC DC 91 01 2F 81 CA DD 31
+             62 DE 8C 57 04 DE DF 31 5A E0 31 62 E1 8C 57 04 E1 DF 31 5A E2 31
+             62 E3 8C 57 08 E3 E4 38 01 72 F7 31 5A 6B 09 8F AC 2E E5 C6 74 AC
+             DC 90 01 2F 0C E6 6B 04 33 02 37 0F 04 16 01 1B 28 6B 04 32 B1 1B
+             74 DC 6B 04 6B 09 33 03 37 0F 04 1B 16 6B 04 32 B1 1B 80 4C 6B 09
+             E7 90 01 31 66 E7 6B 04 33 02 37 0F 04 E8 6B 0F 33 01 15 D2 F8 EA
+             6B 0F 6B 04 33 02 15 DF AD AD AD 90 01 34 80 C1 EB C6 74 AC DC 91
+             01 2F 30 E4 38 01 32 F7 0F 09 14 8F AC 36 EC C6 74 AC DC 90 01 2F
+             FF B3 E6 6B 04 33 02 37 0F 04 16 01 1B 2F DC 6B 04 6B 09 33 03 37
+             0F 04 1B 23 D9 1B 04 86 03 03 17 14 6B 0F 6B 04 33 02 15 16 03 1B
+             80 79 6B 09 E7 90 01 31 59 E7 6B 04 33 02 37 0F 04 6B 04 ED 90 01
+             32 56 EF B0 82 02 37 03 F0 6B 0F 6B 04 33 02 15 16 01 85 01 1B FF
+             84 D1 1B 80 7A 6B 07 E7 90 01 31 75 6B 07 32 B1 0F 07 1B 80 72 DC
+             6B 07 6B 09 33 03 37 0F 07 1B 80 65 6B 07 F5 91 01 34 80 98 6B 07
+             ED 91 01 31 80 90 03 1C 1B 80 70 03 1D 1B 80 6B 6B 04 ED 90 01 32
+             74 03 1E 1B 80 5F 03 1F 1B 80 5A 16 02 F2 6B 0F 33 01 15 F3 31 62
+             F4 8C 57 04 F4 E7 31 5A DF 6B 1A AD AD 90 01 34 80 5D E4 38 01 32
+             F7 0F 09 14 8E AC FF 8F 6B 09 E7 90 01 31 FF 97 D2 14 6B 07 33 02
+             37 0F 07 6B 04 ED 90 01 32 FF 93 6B 07 ED 90 01 34 1B 6B 07 6B 04
+             91 01 32 24 6B 07 ED 91 01 31 1D 03 20 14 6B 0F 33 01 15 16 02 1B
+             18 6B 07 ED 90 01 32 FF 83 6B 07 6B 04 90 01 2F FF 86 85 01 1B FF
+             9C 16 02 65 21 6B 0F 6B 07 6B 04 33 03 15 19 02 00 19 02)
+       ("Â¿Desea iniciar el juego? 1 - SI   2 - NO "
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-PROMPT|
+           #30Y(00 00 00 00 01 00 00 00 26 02 DA 6B 01 AF 33 02 15 38 01 31 9A
+                63 DC 63 38 01 31 7F 19 02)
+           (#Y(|COMMON-LISP-USER|::|BLACK-JACK-PROMPT-1|
+               #20Y(00 00 00 00 02 00 00 00 21 18 AF 31 98 AE B0 31 90 9E 19
+                    04)
+               () (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+            |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|EOF|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+           (|COMMON-LISP|::|INTEGER|) |COMMON-LISP|::|NIL| 1)
+        1. (|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|JUGADOR|)
+        |COMMON-LISP-USER|::|JUGADOR| 0.
+        (|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|COMPUTADORA|)
+        |COMMON-LISP-USER|::|COMPUTADORA|
+        (|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|CARTA|)
+        |COMMON-LISP-USER|::|CARTA| 13.
+        "Carta As, Â¿Que valor desea que tome?  1 - 1   2 - 11 " 11. 10.
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-1|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Inicio de juego de Jugador 1\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*|
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-2|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Puntuacion del jugador: d%")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "Â¿Desea otra carta? 1 - SI  2 - NO "
+        "Carta As, Â¿Que valor desea que tome?  1 - 1   2 - 11 " 21.
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-3|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Has perdido, tu puntuacion es d%")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        2.
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-4|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Tu puntuacion es: d%")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-5|
+           #29Y(00 00 00 00 02 00 00 00 21 18 DA B0 38 02 31 95 AF 01 06 B5 2D
+                08 01 AF 31 97 9E 19 04)
+           ("Tu puntuaciÃ³n es: " |SYSTEM|::|DO-FORMAT-DECIMAL|)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-6|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Inicio de juego de computadora\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        (|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|CONTROL|)
+        |COMMON-LISP-USER|::|CONTROL| 15.
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-7|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("La computadora ha ganado\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-8|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Ningun participante ha ganado\n\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-9|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("El jugador ha ganado\n
+La computadora ha perdido.\n\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-10|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("Juego Empatado\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-11|
+           #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+           ("La computadora ha ganado\n")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        #Y(|COMMON-LISP-USER|::|BLACK-JACK-12|
+           #39Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 B0 01 06 B6 2D
+                08 01 DC B1 38 02 31 95 B0 01 06 B5 2D 08 01 9E 19 05)
+           ("La puntuacion final es: %Computadora: "
+            |SYSTEM|::|DO-FORMAT-DECIMAL| "%Jugador: ")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)))
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
